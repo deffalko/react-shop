@@ -4,11 +4,11 @@ import { Shop } from "./components/Shop";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Header />
       <Shop />
       <Footer />
-    </>
+    </div>
   );
 }
 
